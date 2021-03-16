@@ -8,7 +8,7 @@ Created on Sun Feb  7 01:20:25 2021
 import ftplib
 
 ftp = ftplib.FTP('ftp.pmel.noaa.gov')
-ftp.login('taopmelftp', 'G10b@LCh@Ng3')
+ftp.login('user', 'pswd')
 
 #savedir = '/mnt/d/CIO/Kelvin-cromwell/boyas/pg_web'
 #os.chdir(savedir)
